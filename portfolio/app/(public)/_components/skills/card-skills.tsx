@@ -23,7 +23,7 @@ export function CardSkills({ icon, title, stacks }: CardSkillsProps) {
             group relative w-full overflow-hidden rounded-md
             border border-zinc-700/70
             px-2
-            bg-[#111111]
+            bg-[#181818]
             shadow-[0_4px_12px_rgba(0,0,0,0.35)]
                 
             after:absolute
@@ -49,7 +49,7 @@ export function CardSkills({ icon, title, stacks }: CardSkillsProps) {
                     <span className="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-600 bg-zinc-800 text-[10px] text-zinc-300">
                         <IconComponent size={30} />
                     </span>
-                    <span className="text-2xl">{title}</span>
+                    <span className="text-2xl bg-gradient-to-r from-rose-500 via-red-500 to-rose-400 bg-clip-text text-transparent">{title}</span>
                 </CardTitle>
             </CardHeader>
 

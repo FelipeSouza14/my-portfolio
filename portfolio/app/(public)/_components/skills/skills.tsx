@@ -4,7 +4,7 @@ import { skills } from "@/utils/skills";
 
 export function Skills() {
     return (
-        <section className="relative min-h-screen overflow-hidden bg-black/75 p-15">
+        <section id="skills" className="relative min-h-screen overflow-hidden bg-black/75 p-15">
             <SectionHeader
                 title="Habilidades"
                 description="Tecnologias que utilizo para transformar ideias em soluções digitais."
