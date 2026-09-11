@@ -5,7 +5,7 @@ import { CardProjects } from "./card-project";
 
 export function Projects() {
     return (
-        <section id="projects" className="relative min-h-screen overflow-hidden bg-black/75 p-15">
+        <section id="projects" className="relative min-h-screen overflow-hidden bg-black/75 p-6 pt-16">
 
             <SectionHeader
                 title="Projetos"

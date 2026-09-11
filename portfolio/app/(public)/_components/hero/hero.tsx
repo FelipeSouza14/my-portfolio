@@ -25,7 +25,6 @@ export function Hero() {
 
     return (
         <section id="home" className="relative flex min-h-screen items-center justify-center overflow-hidden">
-            {/* <Planet /> */}
             <div className="relative z-10 flex flex-col items-center text-center text-white">
                 <div className="flex justify-center items-center gap-4 mb-3">
                     <span className="h-[2.5px] w-10 bg-rose-500" />
