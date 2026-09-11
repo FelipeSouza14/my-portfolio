@@ -6,8 +6,8 @@ export function NavHeader() {
         <nav className="mx-auto flex w-full max-w-7xl items-center justify-center">
             <div
                 className="
-                        flex items-center justify-center
-                        gap-1
+                        flex flex-wrap items-center justify-center
+                        gap-2
                         px-2 py-2
                         text-xs sm:text-sm font-semibold
                         sm:gap-3 sm:px-3
