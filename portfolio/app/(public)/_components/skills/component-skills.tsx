@@ -8,7 +8,7 @@ interface ComponentSkillsProps {
 
 export function ComponentSkills({ icon, name, label }: ComponentSkillsProps) {
     return (
-        <div className="flex h-fit p-4 flex-col items-center justify-center gap-3 rounded-[5px] border border-zinc-800 bg-[#242424]">
+        <div className="flex h-32 p-4 flex-col items-center justify-center gap-3 rounded-[5px] border border-zinc-800 bg-[#242424]">
             {name === "GitHub" ? (
                 <div className={`w-10 h-10 bg-white rounded-full`}>
                     <Image
@@ -44,7 +44,7 @@ export function ComponentSkills({ icon, name, label }: ComponentSkillsProps) {
                 />
             )}
 
-            <span className="text-md lg:text-lg font-medium text-zinc-300">
+            <span className="text-md lg:text-lg font-medium text-center text-zinc-300">
                 {name}
             </span>
         </div>

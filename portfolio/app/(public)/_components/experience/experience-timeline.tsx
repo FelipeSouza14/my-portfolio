@@ -8,7 +8,7 @@ import { TimelineCard } from "./timeline-card";
 
 export function ExperienceTimeline() {
     return (
-        <section className=" relative mx-auto w-full py-20">
+        <section className=" relative mx-auto w-full py-10">
             {/* <Badge
           variant="outline"
           className="

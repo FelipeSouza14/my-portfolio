@@ -6,7 +6,7 @@ export function Education() {
     return (
         <section
             id="education"
-            className="relative min-h-screen overflow-hidden bg-black/75 p-15"
+            className="relative min-h-screen overflow-hidden bg-black/75 p-6 pt-16"
         >
             <SectionHeader
                 title="Educação"

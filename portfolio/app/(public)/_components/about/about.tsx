@@ -8,14 +8,14 @@ export function About() {
     return (
         <section
             id="about"
-            className="relative flex justify-center items-center min-h-screen overflow-hidden bg-black/75 p-10"
+            className="relative flex justify-center items-center min-h-screen overflow-hidden bg-black/75 p-6 pt-16"
         >
             <div className="container flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-12 w-full max-w-7xl p-4">
                 <div className="w-full max-w-xl space-y-2">
-                    <div className="flex flex-col text-white gap-3 p-2">
-                        <h2 className="text-5xl font-extrabold">
+                    <div className="flex flex-col text-white gap-8 p-2">
+                        <h2 className="text-4xl md:text-5xl font-extrabold">
                             Bem vindos ao meu{" "}
-                            <span className="text-6xl bg-gradient-to-r from-rose-500 via-red-500 to-rose-400 bg-clip-text text-transparent">
+                            <span className="text-5xl md:text-6xl bg-gradient-to-r from-rose-500 via-red-500 to-rose-400 bg-clip-text text-transparent">
                                 universo!
                             </span>{" "}
                             🚀

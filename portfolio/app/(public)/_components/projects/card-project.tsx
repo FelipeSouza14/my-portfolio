@@ -92,7 +92,7 @@ export function CardProjects({ project }: CardProjectsProps) {
                         Tecnologias Utilizadas
                     </h3>
                 </div>
-                <div className="flex flex-wrap pb-3 pt-0 gap-4 mt-2">
+                <div className="flex justify-center sm:justify-normal items-center flex-wrap pb-3 pt-0 gap-4 mt-2">
                     {project.technologies.map((technologie, index) => (
                         <TechnologiesCard
                             key={index}
@@ -103,7 +103,7 @@ export function CardProjects({ project }: CardProjectsProps) {
                     ))}
                 </div>
             </CardContent>
-            <CardFooter className="bg-transparent border-0 pb-6">
+            <CardFooter className="bg-transparent border-0 pb-6 flex justify-center sm:justify-normal items-center">
                 <Link href={project.link!} target="_blank">
                     <Button
                         className="
